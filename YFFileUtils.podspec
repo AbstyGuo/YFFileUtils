@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
   s.author       = "absty_guo"
 
-  s.platform     = :ios, "8.0"
+  s.platform     = :ios, "9.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -30,5 +30,7 @@ Pod::Spec.new do |s|
   s.public_header_files = "util/**/*.h"
 
   s.requires_arc = true
+
+  s.dependency 'SSZipArchive'
 
 end
