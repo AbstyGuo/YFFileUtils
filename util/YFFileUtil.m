@@ -14,7 +14,7 @@
 
 #if DEBUG
     if(error){
-        NSLog(@"%@",error);
+        NSLog(@"---------------%@",error);
     }
 #endif
 }
